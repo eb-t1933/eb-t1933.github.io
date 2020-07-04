@@ -1,0 +1,57 @@
+svg {
+  stroke: #000;
+  stroke-width: 20;
+  fill: none;
+}
+
+main {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  text-align: center;
+  border-radius: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-body {
+  align-self: center;
+  min-width: 90%;
+  max-height: 92%;
+  overflow-y:scroll;
+}
+
+
+h1 {
+  font-family: Helvetica;
+  font-size: 2em;
+}
+
+header {
+ margin: 0% 2% 2em 2%;
+}
+
+p {
+  margin: 1em 3% 1em 3%;
+}
+
+#GoogMaps {
+  max-width: 95%;
+  margin-top: 5%;
+}
